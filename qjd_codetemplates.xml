@@ -24,7 +24,7 @@
  * @see        &#13;
  */  &#13;
 </template><template autoinsert="false" context="fieldcomment_context" deleted="false" description="Comment for fields" enabled="true" id="org.eclipse.jdt.ui.text.codetemplates.fieldcomment" name="fieldcomment">/**  
- * ${field}:${todo}变量说明:   
+ * ${field}:变量说明:${todo}  
  * @since JDK 1.7  
  */</template><template autoinsert="false" context="methodcomment_context" deleted="false" description="Comment for non-overriding methods" enabled="true" id="org.eclipse.jdt.ui.text.codetemplates.methodcomment" name="methodcomment">/**   
  * 功能描述: ${todo} &lt;br/&gt;  
@@ -38,17 +38,17 @@
  * ${tags}  
  * @since JDK 1.7  
  */</template><template autoinsert="false" context="overridecomment_context" deleted="false" description="Comment for overriding methods" enabled="true" id="org.eclipse.jdt.ui.text.codetemplates.overridecomment" name="overridecomment">/**  
- * ${todo} 实现功能:  
+ * 实现功能:${todo} 
  * ${see_to_overridden}  
  */</template><template autoinsert="true" context="delegatecomment_context" deleted="false" description="Comment for delegate methods" enabled="true" id="org.eclipse.jdt.ui.text.codetemplates.delegatecomment" name="delegatecomment">/**  
  * ${tags}  
  * ${see_to_target}  
  */</template><template autoinsert="false" context="newtype_context" deleted="false" description="Newly created files" enabled="true" id="org.eclipse.jdt.ui.text.codetemplates.newtype" name="newtype">/*
- * 项         目:	${project_name}  
- * 文件名称:	${file_name}  
- * 包         名:	${package_name}  
- * 创建日期:	${date}${time}  
- * Copyright (c) ${year}, qjdchina.com All Rights Reserved.  
+ * 项目:	${project_name}  
+ * 文件:	${file_name}  
+ * 包名:	${package_name}  
+ * 日期:	${date}${time}  
+ * 版权：Copyright (c) ${year}, qjdchina.com All Rights Reserved.  
  *  
  */  
 ${filecomment}  
